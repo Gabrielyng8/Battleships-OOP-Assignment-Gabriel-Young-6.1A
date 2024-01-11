@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="08a613c52f1a4c3bb95d5b4cf11c3e7b" Name="Diagram1">
+        <EntityTypeShape EntityType="BattleshipsDBModel.Attacks" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BattleshipsDBModel.Games" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BattleshipsDBModel.GameShipConfigurations" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BattleshipsDBModel.Players" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BattleshipsDBModel.Ships" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="BattleshipsDBModel.FK__Attacks__gameFK__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="BattleshipsDBModel.FK__Games__creatorFK__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="BattleshipsDBModel.FK__Games__opponentF__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="BattleshipsDBModel.FK__GameShipC__gameF__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="BattleshipsDBModel.FK__GameShipC__playe__2F10007B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
